@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+
+
+:root {
+    --fonte-titulo: 'VT323', monospace;
+    --fonte-destaque: 'Tektur', cursive;;
+    --fonte-padrão: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffc400;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 3em;
+    text-shadow: 2px 2px 1px #ffffff;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.808);
+    font-family: var(--fonte-padrão);
+}
+
+main > p {
+    font-family: var(--fonte-destaque);
+}
+
+footer {
+    color: rgb(3, 3, 3);
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-weight: bold;
+}
+
+

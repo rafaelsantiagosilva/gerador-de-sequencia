@@ -1,0 +1,45 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequência</title>
+    <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
+    <!-- <a href="https://www.flaticon.com/br/icones-gratis/sequencia" title="seqüência ícones">Seqüência ícones criados por Freepik - Flaticon</a> -->
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <h1>Vamos Contar!</h1>
+
+    <main>
+        <form action="get">
+            <p>
+                <label for="inpinicio">Início:</label>
+                <input type="number" name="inpinicio" id="txtinicio">
+            </p>
+
+            <p>
+                <label for="inpfim">Fim:</label>
+                <input type="number" name="inpfim" id="txtfim">
+            </p>
+
+            <p>
+                <label for="inppasso">Passo:</label>
+                <input type="number" name="inppasso" id="txtpasso">
+            </p>
+
+            <input type="button" value="Contar" id="concluir" onclick="sequencia()">
+        </form>
+        <p>Preencha os campos!</p>
+        <p id="seq"></p>
+    </main>
+
+    <footer>
+        <p>&copyRafael Santiago</p>
+    </footer>
+    
+<script src="./src/js/script.js"></script>
+</body>
+
+</html>
